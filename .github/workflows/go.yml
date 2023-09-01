@@ -24,9 +24,9 @@ jobs:
     - name: Build linelambda
       run: cd linelambda && go build -v
 
-    #- name: Test
-    #  run: go test -v -covermode="count" -coverprofile="/tmp/coverage.out"
+    - name: Test
+      run: cd linelambda && go test -v -covermode="count" -coverprofile="/tmp/coverage.out"
 
-    #- name: Coverage Report
-    #  run: go tool cover -func="/tmp/coverage.out"
+    - name: Coverage Report
+      run: cd linelambda && go tool cover -func="/tmp/coverage.out"
 
