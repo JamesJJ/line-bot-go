@@ -6,7 +6,6 @@ Line Bot Go SDK: https://github.com/line/line-bot-sdk-go/
 
 Example code and an AWS SAM deployment template for a simple
 "echo" Line Bot are here: https://github.com/JamesJJ/line-bot-demo
-
 */
 package linelambda
 
